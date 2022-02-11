@@ -18,7 +18,7 @@ def one_game():
         word_input = str(input("Your guess:")).lower()
 
         if word_input == "exit":
-            print("※※※※※※※EXITTING THE GAME※※※※※※ ")
+            print("※※※※※※※EXITING THE GAME※※※※※※ ")
             return 0
 
         if len(word_input) != 5:
